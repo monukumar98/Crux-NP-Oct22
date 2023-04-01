@@ -14,7 +14,7 @@ public class N_Knight_Problem {
 
 	public static void Knight(boolean[][] board, int cr, int cc, String ans, int tk) {
 		if (tk == 0) {
-			System.out.print(ans + "{" + cr + "-" + cc + "} ");
+			System.out.print(ans );
 			return;
 		}
 		if (cc == board.length) {
