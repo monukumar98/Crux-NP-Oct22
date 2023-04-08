@@ -1,8 +1,8 @@
 package Lec31;
 
 public class Person {
-	private int age = 25;
-	private String name = "kamlesh";
+	private int age ;
+	private String name ;
 
 	public Person(String name, int age) {
 		// TODO Auto-generated constructor stub
