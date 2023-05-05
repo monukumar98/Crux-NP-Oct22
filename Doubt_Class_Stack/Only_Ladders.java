@@ -22,7 +22,7 @@ public class Only_Ladders {
 		}
 		int count = 0;
 		if (ladder[curr] != 0) {
-			count += Printanswer(curr + ladder[curr], end, ans + curr + " ", ladder);
+			count += Printanswer(ladder[curr], end, ans + curr + " ", ladder);
 
 		}
 		// else {
